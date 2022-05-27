@@ -1,0 +1,16 @@
+.content{
+    margin-left: 5%;
+    margin-bottom: 10%;
+    margin-top: 10%;
+    line-height: 2em;
+    font-size: 20px;
+    font-weight: 500px;
+   
+}
+
+
+@media screen and (max-width: 991px) {
+    .content{
+        margin-top:25%;
+    }
+}

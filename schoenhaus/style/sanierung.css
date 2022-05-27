@@ -1,0 +1,35 @@
+.sanierung-content{
+    height:400px;
+}
+.sanierung-content-text{
+    margin-top:10%;
+    margin-left: 10%;
+    text-align: center;
+    width:80%;
+}
+
+.sanierung-content-text p{
+    font-size: 18px;
+  
+}
+
+.renovierung-content-text{
+    margin-top:5%;
+    margin-left: 10%;
+    text-align: center;
+    width:80%;
+}
+
+.renovierung-content-text p{
+    font-size: 18px;
+  
+}
+
+@media screen and (max-width: 991px) {
+    .sanierung-content{
+        margin-top: 10%;
+    }
+  .sanierung-content-text{
+      margin-bottom: 20%;
+  }
+}

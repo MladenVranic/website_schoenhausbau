@@ -1,0 +1,18 @@
+.neubau-content{
+    height:400px;
+}
+.neubau-text{
+    margin-top:10%;
+    margin-left: 10%;
+    text-align: center;
+    width:80%;
+}
+
+.neubau-text p{
+    font-size: 18px;
+    
+}
+.slogan-cursive{
+    font-family: Brush Script MT, Brush Script Std;
+    font-size: 28px;
+  }

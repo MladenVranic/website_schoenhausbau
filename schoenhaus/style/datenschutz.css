@@ -1,0 +1,13 @@
+.dsgvo{
+    height:400px;
+}
+
+.dsgvo-content{
+    margin-top:10%;
+    margin-left: 10%;
+    text-align: center;
+    width:80%;
+}
+.dsgvo-content a{
+    color: black;
+}

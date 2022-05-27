@@ -1,0 +1,172 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style/navbar.css">
+    <link rel="stylesheet" href="./style/homepage.css">
+    <link rel="stylesheet" href="./style/footer.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>Schoenhaus-Bau</title>
+</head>
+<body>
+    <header>
+            <nav id="head-menue">
+                <div class="logo">
+                    <img class="pic" src="./assets/transparent-logo.png" alt="" height="100px" width="500px">
+                </div>
+                    <div class="logo-mobile">
+                        <div class="nav-menue">
+                            <img class="pic-tr" src="./assets/transparent-logo.png" alt="" height="60px" width="300px">
+                                <div id="open-btn" class="burger" onClick="openLinks()">
+                                    <div class="line1"></div>
+                                    <div class="line2"></div>
+                                    <div class="line3"></div>
+                                </div>
+                            </div>
+                    <div id="mobile-nav" class="nav-links-mobile"> 
+                        <ul>
+                            <li><a href="#">Startseite</a></li>
+                            <div class="dropdown-mobile" onClick="mobileDropDown()">
+                                <li><a href="#" class="drop-mob" >Leistungen</a></li>
+                            </div>
+                                <div class="dropdown-content-mobile">
+                                    <a href="./components/brandschutz.html">Brandschutz</a>
+                                    <a href="./components/facility.html">Facility Management</a>
+                                    <a href="./components/neubau.html">Neubau</a>
+                                </div>
+                            
+                            <li><a href="./components/kontakt.html">Kontakt</a></li>
+                            <li><a href="./components/impressum.html">Impressum</a></li>
+                    </ul>
+                    <div class="nav-icons">
+                        <div>
+                            <a href="https://instagram.com/schoenhaus_bau?utm_medium=copy_link"> <img src="./assets/instagram.png" alt="" height="40px" width="40px"></a>
+                        </div>
+                        <div>
+                            <img src="./assets/facebook.png" alt="" height="40px" width="40px">
+                        </div>
+                    </div>
+                        <div class="close-btn" onclick="closeLinks()">
+                            <a href="#" id="close-btn">^</a>
+                        </div>
+            </div>
+                </div>
+                    <div class="nav-links">
+                        <li><a href="#">Startseite</a></li>
+                        <div class="dropdown">
+                            <li><a href="#">Leistungen</a></li>
+                       
+                            <div class="dropdown-content">
+                                <a href="./components/brandschutz.html">Brandschutz</a>
+                                <a href="./components/facility.html">Facility Management</a>
+                                <a href="./components/neubau.html">Neubau</a>
+                            </div>
+                        </div>
+                        <li><a href="./components/kontakt.html">Kontakt</a></li>
+                        <li><a href="./components/impressum.html">Impressum</a></li>
+                </div>     
+        </nav>
+    </header>
+
+<!--STARTBILD-->
+<div class="home-pic">
+    <img class="test-pic" src="../assets/living-room.jpg" alt="">
+    <span>Wenn's schön sein soll.</span>
+</div>
+<div class="home-pic-mobile">
+    <img class="mobile-pic" src="../assets/green-sofa.jpg" alt="" height="200px" width="350px">
+    <span>Wenn's schön sein soll.</span>
+</div>
+
+</div>
+    <div class="start-text">
+            <p>Mit Schönhaus Bau erhalten Sie Ihren zuverlässigen Partner rund um das Thema <span>Bau</span>. Unter dem Motto <span>#ALLESAUSEINERHAND</span> begleiten wir Sie von der <span>Beratung & Planung</span> über die Durchführung bis zur Fertigstellung Ihres persönlichen Bauprojekts, ob <span> Renovierung</span>, 
+                <span> Sanierung </span>,<span>TÜV zertifizierten Brandschutz</span>,<span> Facilitiy Management</span> oder <span>schlüsselfertiges Bauen</span>.
+            </p>
+            <br><br>
+            <p>Als junges und dynamisches Unternehmen bieten wir Ihnen ein Bauerlebnis der neuen Art.
+                Wenn Sie sich dazu entscheiden den Bau Ihrer Traumimmobilie mit Schönhaus Bau zu realisieren, erhalten Sie damit einen starken Partner, der Sie in jeder Bauphase voll unterstützt. 
+                Sie erhalten einen festen Ansprechpartner, sodass Sie jederzeit den Überblick über Ihr Bauvorhaben haben. Wir bieten Ihnen einen kompetenten <span>Rundum-Service</span> im Bereich <span>Facility Management</span>  an. 
+                Darüber hinaus verfügen wir über das technische und bauliche Know-How um <span>Verfallserscheinungen </span> , <span>größere Reparaturen</span>  und <span>Bauarbeiten</span> zu leisten. 
+            </p>
+            <br><br>
+    </div>
+
+    <div class="leistungs-box">
+        <div class="kasten">
+            <div class="kasten-txt">
+                <img class="kasten-icon" src="./assets/design-team.png" alt="">
+                    <h2>Beratung</h2><br>
+                        <p>Um den Wert Ihrer Immobilie zu erhalten oder sogar zu steigern, sind Sanierungsarbeiten von Zeit zu Zeit unabdingbar. 
+                            Witterungseinflüsse hinterlassen Spuren in Ihrem Bauwerk. 
+                            Lassen Sie Ihr Haus nicht zerfallen und unternehmen Sie etwas dagegen. 
+                            Investieren lohnt sich.</p>
+            </div> 
+        </div>
+        <div class="kasten">
+            <div class="kasten-txt">
+                <img class="kasten-icon" src="./assets/architecture.png" alt="">
+                    <h2>Planung</h2><br>
+                        <p>Es wird Zeit für eine Veränderung? 
+                            Das Parkett benötigt eine Aufbereitung oder Sie wünschen Ihre Räume in ganz Neuem Licht zu sehen? 
+                            Vielleicht mit abgehangenen Decken und ein paar dimmbaren Spots? 
+                            Wir übernehmen bereits ab der Planung und beraten Sie gerne bei der Auswahl von Design und Marerial. 
+
+                        </p>
+            </div> 
+        </div>
+        <div class="kasten">
+            <div class="kasten-txt">
+                <img class="kasten-icon" src="./assets/hammer.png" alt="">
+                    <h2>Durchführung</h2><br>
+                        <p>Während wir für Sie renovieren und sanieren finden häufig bereits Modernisierungarbeiten statt. 
+                            So zum Beispiel, wenn wir Ihre Immobilie mit einer neuen Dämmung ausstatten, Wärmeschutzfenster eingebaut, oder neue und modernen Heizkörper angeschafft werden. 
+                           </p>
+            </div> 
+        </div>
+    </div>
+
+<div class="start-text-2">
+    <h2>Diese Seite befindet sich noch im Aufbau</h2><br>
+        <p>
+            Haben Sie Fragen oder hätten gerne genauere Informationen zu dem Thema? Unser Team berät Sie gerne persönlich, telefonisch oder auch per Mail.
+        </p>
+</div>
+<div class="wrapper"></div>
+
+<!--Telefon BTN-->
+<div class="phone-btn" >
+   <a href="tel:01788620580" ><img src="./assets/phone-message.png" alt="" class="phoneBTN"></a>
+  </div>
+
+ <!--FOOTER-->
+ <div id="footer" class="footer">
+    <div class="footer-content">
+        <div class="footer-kontakt">
+            <h2 class="logo-text">Kontakt</h2>
+            <p>
+                Geschäftsführer: Stevo Nastic <br>
+                Adresse: Langstrasse 78, 64546 Mörfelden-Waldorf <br>
+                E-mail: info@schoenhaus-bau.de <br>
+                Telefon: 0178 - 86 20 580
+            </p>
+        </div>
+        <div class="footer-links">
+                <li><a href="./components/datenschutz.html">Datenschutz </a></li> <p>|</p>
+                <li><a href="./components/impressum.html">Impressum</a></li>
+               
+        </div>
+            <div class="social-media">
+                <h2>Social Media:</h2>
+                <a href="#" class="fa fa-facebook"></a>
+                <a href="https://instagram.com/schoenhaus_bau?utm_medium=copy_link" class="fa fa-instagram"></a>
+            </div>
+    </div>
+        <div class="footer-bottom">
+            &copy; Schoenhaus-Bau GmbH | Designed by Schoenhaus-Bau
+        </div>
+    </div> 
+<script src="./script/script.js"></script>
+</body>
+</html>
